@@ -36,3 +36,5 @@ cacheSolve <- function(x, ...) {
 S <- makeCacheMatrix(A)
 cacheSolve(S)
 cacheSolve(S)
+git rev-parse -- <commit_hash>
+
