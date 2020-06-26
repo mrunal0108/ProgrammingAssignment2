@@ -32,7 +32,7 @@ cacheSolve <- function(x, ...) {
   m
 }
 
-A <- matrix(c(1,2,3,4),2,2)
+ A <- matrix(c(1,2,3,4),2,2)
 S <- makeCacheMatrix(A)
 cacheSolve(S)
 cacheSolve(S)
